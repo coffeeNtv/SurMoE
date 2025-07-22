@@ -4,9 +4,9 @@
 CUDA_VISIBLE_DEVICES=0 python main.py \
 --dataset tcga_blca \
 --data_root_dir  /home/wzhang/data/tcga_blca/ \
---model blca_samamba \
+--model blca_surmoe \
 --gene_dir ./csv/blca_signatures.csv \
---num_pathway 285
+--num_pathway 64
 ```
 
 
@@ -17,7 +17,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
 CUDA_VISIBLE_DEVICES=0 python main.py \
 --dataset tcga_brca \
 --data_root_dir  /home/wzhang/data/tcga_brca/  \
---model brca_samamba \ 
+--model brca_surmoe \ 
 --gene_dir ./csv/brca_signatures.csv \
 --num_pathway 284 
 ```
@@ -30,7 +30,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
 CUDA_VISIBLE_DEVICES=0 python main.py \
 --dataset tcga_ucec \
 --data_root_dir  /home/wzhang/data/tcga_ucec/ \
---model ucec_samamba \
+--model ucec_surmoe \
 --gene_dir ./csv/ucec_signatures.csv \
 --num_pathway 188
 ```
@@ -49,6 +49,17 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
 ```
 
 
+
+## GBMLGG
+
+```
+CUDA_VISIBLE_DEVICES=0 python main.py \
+--dataset tcga_gbmlgg \
+--data_root_dir  /home/wzhang/data/tcga_gbmlgg/ \
+--model gbmlgg_surmoe \
+--gene_dir ./csv/gbmlgg_signatures.csv \
+--num_pathway 282
+```
 
 
 
