@@ -43,7 +43,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
 CUDA_VISIBLE_DEVICES=0 python main.py \
 --dataset tcga_luad  \
 --data_root_dir  /home/wzhang/data/tcga_luad/ \
---model luad_samamba \
+--model luad_surmoe \
 --gene_dir ./csv/luad_signatures.csv \
 --num_pathway 284 
 ```
