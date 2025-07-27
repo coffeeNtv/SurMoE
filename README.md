@@ -109,12 +109,11 @@ Please feel free to cite as if our work could be helpful for your study. Thank y
 
 ```
 @article{zhang2025surmoe,
-title = {Integrating images and genomics for multi-modal cancer survival analysis via mixture of experts},
-journal = {Information Fusion},
-volume = {126},
-pages = {103521},
-year = {2026},
-issn = {1566-2535},
-doi = {https://doi.org/10.1016/j.inffus.2025.103521}
+  title={Integrating images and genomics for multi-modal cancer survival analysis via mixture of experts},
+  author={Zhang, Wei and Xu, Wenxin and Chen, Tong and Sakal, Collin and Li, Xinyue},
+  journal={Information Fusion},
+  pages={103521},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
